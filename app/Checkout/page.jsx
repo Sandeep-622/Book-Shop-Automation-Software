@@ -47,7 +47,7 @@ export default function Checkout() {
         setName("");
 
         toast.success("Payment Done successfully");
-        console.log(totalpricevalue);
+        console.log(total);
         router.push("/");
       } else {
         console.log("data saving failed.");
@@ -105,7 +105,7 @@ export default function Checkout() {
         });
 
         const queryString = `name=${name}&email=${email}&phone=${phone}&address=${address}&payment=${payment}
-      \&total=${total}&razorpay_payment_id=${
+      total=${total}&razorpay_payment_id=${
           response.razorpay_payment_id
         }&razorpay_order_id=${response.razorpay_order_id}&razorpay_signature=${
           response.razorpay_signature
