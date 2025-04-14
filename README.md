@@ -18,8 +18,8 @@ A full-stack web application that automates and simplifies book store operations
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, Tailwind CSS  
-- **Backend**: Node.js, Express.js  
+- **Frontend**: Next Js, Tailwind CSS  
+- **Backend**: Next Js
 - **Database**: MongoDB  
 - **Authentication**: NextAuth  
 - **Deployment**: Vercel
